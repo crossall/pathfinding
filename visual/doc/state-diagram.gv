@@ -3,7 +3,7 @@ digraph controller_states {
 	size="10,8"
 	node [shape = circle];
     none       -> before    [ label = "init"    ];
-	before     -> starting  [ label = "start"   ];
+	before     -> starting  [ label = "시작"   ];
 	starting   -> searching [ label = "search"  ];
 	searching  -> starting  [ label = "restart" ];
 	searching  -> paused    [ label = "pause"   ];
